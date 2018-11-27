@@ -16,37 +16,37 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-fire'){
+    if(message.content === '-يومي'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-fire2'){
+    if(message.content === '-راتب'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-fire3'){
+    if(message.content === '-راتب'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-fire'){
+    if(message.content === '-يومي'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-fire2'){
+    if(message.content === '-راتب'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-fire3'){
+    if(message.content === '-راتب'){
         message.channel.send('#credits')
     }
 });
