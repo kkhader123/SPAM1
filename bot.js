@@ -22,13 +22,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-fire2'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '-fire3'){
         message.channel.send('#credits')
     }
 });
@@ -40,13 +40,13 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-fire2'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '-fire3'){
         message.channel.send('#credits')
     }
 });
