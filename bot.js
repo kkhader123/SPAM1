@@ -1,55 +1,18 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-const client2 = new Discord.Client();
 
 client.on('ready', () => {
-   console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
-   console.log(`----------------`);
-   console.log(`Loadinng`);
-   console.log(`Loadinng.`);
-   console.log(`Loadinng..`);
-   console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
-   console.log(`----------------`);
+  console.log(Logged in as ${client.user.tag}!);
 });
 
 
-client.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
-    }
-});
-
-client2.on('message', message => {
-    if(message.content === '-راتب'){
-        message.channel.send('#daily')
-    }
-});
-
-client2.on('message', message => {
-    if(message.content === '-مبلغ'){
-        message.channel.send('#credits')
-    }
-});
-
-client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
-    }
-});
+client.on('ready', async() => {
+var server = "Id server"; // ايدي السررفر
+var channel = "id room";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , Forest Spam , ')
+    },305);
+})
 
 
 
