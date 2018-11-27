@@ -54,11 +54,11 @@ client2.on('message', message => {
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!1') {
+if (message.content === '!spam 1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Khader The Killer **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,11 +68,11 @@ if (message.content === '!1') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!1') {
+if (message.content === '!spam 1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Khader The Killer  **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -86,11 +86,3 @@ if (message.content === '!1') {
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
-client.login(process.env.TOKEN3);// لا تغير فيها شيء
-client3.login(process.env.TOKEN4);// لا تغير فيها شيء
-client4.login(process.env.TOKEN5);// لا تغير فيها شيء
-client5.login(process.env.TOKEN6);// لا تغير فيها شيء
-client6.login(process.env.TOKEN7);// لا تغير فيها شيء
-client7.login(process.env.TOKEN8);// لا تغير فيها شيء
-client8.login(process.env.TOKEN9);// لا تغير فيها شيء
-client9.login(process.env.TOKEN10);// لا تغير فيها شيء
