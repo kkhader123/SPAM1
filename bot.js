@@ -16,7 +16,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-fire'){
         message.channel.send('#daily')
     }
 });
@@ -34,7 +34,7 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-fire'){
         message.channel.send('#daily')
     }
 });
